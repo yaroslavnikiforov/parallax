@@ -1,10 +1,11 @@
 {
-  "name": "parallax-2",
+  "homepage": "https://yaroslavnikiforov.github.io/parallax.github.io",
+  "name": "parallax",
   "version": "0.1.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/Mbuu/parallax-2.git"
+    "url": "https://github.com/YaroslavNikiforov/parallax.github.io"
   },
   "author": "yaroslav nikiforov",
   "dependencies": {
@@ -16,6 +17,8 @@
     "sass": "^1.9.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "sass:watch": "sass --watch src/styles/scss:src/styles/css",
     "build": "react-scripts build",
