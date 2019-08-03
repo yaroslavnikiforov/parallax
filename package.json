@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/YaroslavNikiforov/parallax.github.io"
+    "url": "https://github.com/yaroslavnikiforov/parallax"
   },
   "author": "yaroslav nikiforov",
   "dependencies": {
